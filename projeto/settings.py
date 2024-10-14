@@ -53,6 +53,7 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
         'rest_framework.permissions.IsAuthenticated',
     ),
+    'PAGESIZE': 10
 }
 
 # tempo de validade
